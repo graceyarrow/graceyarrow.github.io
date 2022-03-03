@@ -1,0 +1,65 @@
+/* font options 
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Cinzel', serif;
+
+color options
+light mauve #E8CEE4 
+medium mauve #B597C7
+dark purple grey #5D576B 
+purple pop #694D9D
+*/
+
+h1 {
+    text-transform: uppercase;
+    color:#694D9D;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+h2{
+    font-family: 'Nanum Myeongjo', serif;
+    text-align: center;
+    color:#5D576B;
+    font-size:.7cm;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    color: #694D9D;
+    font-family: 'Nanum Myeongjo', serif;
+    padding: 14px;
+}
+
+a:hover,
+.nav-link:hover{
+    color: yellow;
+}
+
+a {
+    color: #694D9D;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background-color: #ecd7e9;
+}
+
+img{
+    padding-bottom: 15px;
+    padding-top: 10 px;
+}
+
+.row{
+    text-align:center;
+}
+
+footer{
+    color: #B597C7;
+    font-family: 'Cinzel', serif;
+    padding: 20px;
+    text-align: center;
+}
