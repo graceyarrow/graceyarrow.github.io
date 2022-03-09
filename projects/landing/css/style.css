@@ -50,7 +50,7 @@ body {
 
 img{
     padding-bottom: 15px;
-    padding-top: 10 px;
+    padding-top: 10px;
 }
 
 .row{
@@ -62,4 +62,15 @@ footer{
     font-family: 'Cinzel', serif;
     padding: 20px;
     text-align: center;
+}
+
+@media (max-width:375px) {
+    h2 {
+        font-size:.4cm;
+    }
+
+    .nav-link {
+        font-size:.4cm;
+        padding:9px;
+    }
 }
