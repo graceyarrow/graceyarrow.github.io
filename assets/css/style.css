@@ -1,0 +1,55 @@
+/* font options:
+
+
+
+color palette: 
+baby pink #EEC3C3
+linen #F6ECE3
+bittersweet shimmer (darker pink) #B85D5D
+charcoal #404E5C
+rich black #111518
+*/
+
+
+body {
+    background-color: #EEC3C3;
+}
+
+h1 {
+    color:#B85D5D;
+    text-align:center;
+    padding-top:30px;
+}
+
+h2 {
+    size:18px;
+}
+
+.nav-item,
+.nav-link {
+    text-transform:uppercase;
+    color:#404E5C;
+    size:25px;
+    padding-bottom:10px;
+}
+
+img {
+    display:inline-block;
+    width:300px;
+    /*padding:1px;*/
+    border:8px solid #B85D5D;
+    border-radius:2px;
+}
+main {
+    padding:20px;
+}
+
+a:hover,
+.nav-link:hover{
+    color:#F6ECE3;
+}
+
+p.container {
+    color:red;
+    
+}
