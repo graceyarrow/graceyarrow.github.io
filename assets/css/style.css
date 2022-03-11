@@ -1,5 +1,6 @@
 /* font options:
-
+cardo regular and bold
+nunito 300
 
 
 color palette: 
@@ -11,18 +12,20 @@ rich black #111518
 */
 
 
-body {
-    background-color: #EEC3C3;
-}
 
 h1 {
-    color:#B85D5D;
+    color:#A54A4A;
     text-align:center;
-    padding-top:30px;
+    text-transform:uppercase;
+    font-family:'Cardo',serif;
+    font-size:40px;
 }
 
 h2 {
-    size:18px;
+    size:14px;
+    color:#B85D5D;
+    font-family:'Nunito',sans-serif;
+    font-size:30px;
 }
 
 .nav-item,
@@ -31,17 +34,30 @@ h2 {
     color:#404E5C;
     size:25px;
     padding-bottom:10px;
+    font-family:'Nunito',sans-serif;
+
+}
+
+head {
+    padding:30px;
 }
 
 img {
     display:inline-block;
-    width:300px;
-    /*padding:1px;*/
     border:8px solid #B85D5D;
     border-radius:2px;
 }
+
+body {
+    padding:32px;
+    background-color: #E6C6C4;
+    font-family: 'Cardo', serif;
+}
+
 main {
-    padding:20px;
+    font-family:'Cardo', serif;
+    font-size:20px;
+    
 }
 
 a:hover,
@@ -49,7 +65,17 @@ a:hover,
     color:#F6ECE3;
 }
 
-p.container {
-    color:red;
-    
+.row{
+    padding:28px;
 }
+
+.col-md-9{
+    font-family:'Cardo', serif;
+    font-size:18px;
+}
+
+/*h3 {
+    color:#9c5161;
+    font-family:'Nunito', serif;
+    font-size:20px;
+}*/
