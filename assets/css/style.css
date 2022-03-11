@@ -9,6 +9,7 @@ linen #F6ECE3
 bittersweet shimmer (darker pink) #B85D5D
 charcoal #404E5C
 rich black #111518
+taupe #8A5A5A
 */
 
 
@@ -72,6 +73,14 @@ a:hover,
 .col-md-9{
     font-family:'Cardo', serif;
     font-size:18px;
+}
+
+h4 {
+    color:#111518;
+}
+h5 {
+    color:#8A5A5A;
+    font-family:'Nunito',sans-serif;
 }
 
 /*h3 {
