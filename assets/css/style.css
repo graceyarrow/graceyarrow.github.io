@@ -10,6 +10,7 @@ bittersweet shimmer (darker pink) #B85D5D
 charcoal #404E5C
 rich black #111518
 taupe #8A5A5A
+Hover color #f12db7 
 */
 
 
@@ -63,7 +64,7 @@ main {
 
 a:hover,
 .nav-link:hover{
-    color:#F6ECE3;
+    color:#f12db7;
 }
 
 .row{
@@ -81,6 +82,29 @@ h4 {
 h5 {
     color:#8A5A5A;
     font-family:'Nunito',sans-serif;
+}
+
+.btn {
+    background-color: #8A5A5A;
+    border: none;
+    color: #F6ECE3;
+    padding: 12px;
+    font-size: 20px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: #f12db7;
+  }
+
+.card-title {
+    font-family:'Cardo',serif;
+    color:#404E5C;
+}
+
+.card-text {
+    font-family:'Nunito',sans-serif;
+    color:#8A5A5A;
 }
 
 /*h3 {
