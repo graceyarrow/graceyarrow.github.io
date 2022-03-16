@@ -107,6 +107,15 @@ h5 {
     color:#8A5A5A;
 }
 
+.bi {
+    color:black;
+    font-size: 3em;
+    text-align: center;
+    padding:10px;
+}
+
+
+
 /*h3 {
     color:#9c5161;
     font-family:'Nunito', serif;
