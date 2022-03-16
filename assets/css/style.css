@@ -20,7 +20,7 @@ h1 {
     text-align:center;
     text-transform:uppercase;
     font-family:'Cardo',serif;
-    font-size:40px;
+    font-size:60px;
 }
 
 h2 {
@@ -36,11 +36,6 @@ h2 {
     color:#404E5C;
     padding-bottom:10px;
     font-family:'Nunito',sans-serif;
-
-}
-
-head {
-    padding:30px;
 }
 
 img {
@@ -121,4 +116,13 @@ iframe{
     height:1150px;
     margin:0;
     padding:0;
+}
+
+@media (max-width:900px){
+    h1{
+        font-size:70px;
+    }
+    body{
+        font-size:18px;
+    }
 }
