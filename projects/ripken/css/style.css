@@ -58,7 +58,8 @@ body {
     display:inline;
 }
 
-section {
+section, 
+footer {
     width:65%;
     margin: 0 auto;
     padding: 5% 0;
@@ -114,6 +115,16 @@ blockquote{
     font-size:.8em;
 }
 
+.chart {
+    background: #ffffff;
+    padding:3%;
+}
+
+/*
+.soundcite {
+    background-color:#363333;
+}*/
+
 /*media queries*/
 
 @media (min-width:1000px){
@@ -138,6 +149,8 @@ blockquote{
     section{
         font-size:16px;
     }
+    .chart{
+        padding:2%;
 }
 
 @media (max-width:450px){
