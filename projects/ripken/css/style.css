@@ -117,13 +117,8 @@ blockquote{
 
 .chart {
     background: #ffffff;
-    padding:3%;
+    padding:5%;
 }
-
-/*
-.soundcite {
-    background-color:#363333;
-}*/
 
 /*media queries*/
 
@@ -136,6 +131,7 @@ blockquote{
  @media (max-width:992px){
     header{
         text-align:center;
+        padding:0 20%;
     }
     video{
         margin-bottom:5%;
@@ -151,6 +147,7 @@ blockquote{
     }
     .chart{
         padding:2%;
+    }
 }
 
 @media (max-width:450px){
