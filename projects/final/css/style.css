@@ -1,0 +1,54 @@
+/* font options: 
+font-family: 'Lora', serif;
+font-family: 'Martel Sans', sans-serif;
+
+color options: 
+#DEE5E5
+#8CBFA9
+#2C8754
+#266E62
+#10391e
+*/
+
+h1{
+    background-color: #DEE5E5;
+    color:#10391e;
+    margin:1.2em;
+    padding:.4em;
+    text-align: center;
+    font-family: 'Martel Sans 400', sans-serif;
+    font-weight:800;
+    font-size: 40px;
+}
+
+body{
+    background-color:#10391e;
+    color:#DEE5E5;
+    padding:1.5em;
+    font-family: 'Lora', serif;
+    font-size:16px;
+    font-weight:300;
+}
+
+.dek{
+    background-color:#DEE5E5;
+    color:#10391e;
+    padding:1em;
+    font-family: 'Martel Sans', sans-serif;
+    font-size:18px;
+    margin-bottom:2em;
+}
+
+.graph{
+    background-color: #DEE5E5;
+    padding:1em;
+}
+
+blockquote{
+    background-color:#DEE5E5;
+    color:#10391e;
+    padding:1em;
+    font-size:25px;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight:600;
+}
