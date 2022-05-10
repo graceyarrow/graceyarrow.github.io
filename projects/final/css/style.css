@@ -30,7 +30,7 @@ body{
     font-weight:300;
 }
 
-.dek{
+.dek, blockquote{
     background-color:#DEE5E5;
     color:#10391e;
     padding:1em;
@@ -44,11 +44,3 @@ body{
     padding:1em;
 }
 
-blockquote{
-    background-color:#DEE5E5;
-    color:#10391e;
-    padding:1em;
-    font-size:25px;
-    font-family: 'Martel Sans', sans-serif;
-    font-weight:600;
-}
