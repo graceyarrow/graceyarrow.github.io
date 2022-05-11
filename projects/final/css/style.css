@@ -1,6 +1,7 @@
 /* font options: 
 font-family: 'Lora', serif;
-font-family: 'Martel Sans', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Roboto', sans-serif;
 
 color options: 
 #DEE5E5
@@ -10,31 +11,61 @@ color options:
 #10391e
 */
 
-h1{
+
+
+header{
     background-color: #DEE5E5;
+    margin:1.5em;
+    padding:2em;
+
+}
+h1{
     color:#10391e;
-    margin:1.2em;
-    padding:.4em;
     text-align: center;
-    font-family: 'Martel Sans 400', sans-serif;
+    font-family: 'Merriweather', serif;
     font-weight:800;
     font-size: 40px;
+    padding-bottom: .5em;
+}
+
+h3, h4{
+    color:#10391e;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-weight:400;
+    font-size: 20px;
+}
+
+a:link, a:visited {
+    color:#266E62;
+    font-weight:600;
+}
+
+#carouselExampleControls {
+    padding-top:1.5em;
 }
 
 body{
     background-color:#10391e;
     color:#DEE5E5;
     padding:1.5em;
-    font-family: 'Lora', serif;
+    font-family: 'Roboto', sans-serif;
     font-size:16px;
     font-weight:300;
 }
 
-.dek, blockquote{
+.caption{
+    padding-top:.8em;
+    font-family:'Merriweather', serif;
+    font-size:14px;
+    font-weight:200;
+}
+
+blockquote{
     background-color:#DEE5E5;
     color:#10391e;
     padding:1em;
-    font-family: 'Martel Sans', sans-serif;
+    font-family: 'Merriweather', serif;
     font-size:18px;
     margin-bottom:2em;
 }
@@ -42,5 +73,6 @@ body{
 .graph{
     background-color: #DEE5E5;
     padding:1em;
+    margin: 2em 0;
 }
 
