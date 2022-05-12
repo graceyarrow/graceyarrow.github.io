@@ -63,11 +63,11 @@ body{
 
 blockquote{
     background-color:#DEE5E5;
-    color:#10391e;
+    color:#266E62;
     padding:1em;
     font-family: 'Merriweather', serif;
     font-size:18px;
-    margin-bottom:2em;
+    margin:2em 0;
 }
 
 .graph{
@@ -81,6 +81,10 @@ footer{
     text-align:center;
     padding:.5em;
     font-family: 'Merriweather', serif;
+}
+
+#bottom {
+    vertical-align:middle;
 }
 
 @media (max-width:600px){
