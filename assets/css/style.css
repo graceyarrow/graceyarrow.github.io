@@ -13,7 +13,9 @@ taupe #8A5A5A
 Hover color #f12db7 
 */
 
-
+a {
+    color: #A54A4A;
+  }
 
 h1 {
     color:#A54A4A;
