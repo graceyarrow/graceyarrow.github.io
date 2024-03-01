@@ -11,14 +11,21 @@ charcoal #404E5C
 rich black #111518
 taupe #8A5A5A
 Hover color #f12db7 
+
+
+medium green #6BBF59
+yellow #DDB771
+dark green #0B6E4F
+darkest green #073B3A
 */
 
+
 a {
-    color: #A54A4A;
+    color: #4A883B;
   }
 
 h1 {
-    color:#A54A4A;
+    color:#073B3A;
     text-align:center;
     text-transform:uppercase;
     font-family:'Cardo',serif;
@@ -27,7 +34,7 @@ h1 {
 
 h2 {
     font-size:16px;
-    color:#B85D5D;
+    color:#4A883B;
     font-family:'Nunito',sans-serif;
     font-size:36px;
 }
@@ -35,21 +42,21 @@ h2 {
 .nav-item,
 .nav-link {
     text-transform:uppercase;
-    color:#404E5C;
+    color:#0B6E4F;
     padding-bottom:10px;
     font-family:'Nunito',sans-serif;
 }
 
 img {
     display:inline-block;
-    border:8px solid #B85D5D;
+    border:8px solid #4A883B;
     border-radius:2px;
     margin: 5px 1px 5px 1px;
 }
 
 body {
     padding:32px;
-    background-color: #e1d1d0;
+    background-color:#A7CB9F;
     font-family: 'Cardo', serif;
 }
 
@@ -61,7 +68,7 @@ main {
 
 a:hover,
 .nav-link:hover{
-    color:#f12db7;
+    color:#71A165;
 }
 
 .row{
@@ -74,15 +81,15 @@ a:hover,
 }
 
 h4 {
-    color:#111518;
+    color:#021818;
 }
 h5 {
-    color:#8A5A5A;
+    color:#0B6E4F;
     font-family:'Nunito',sans-serif;
 }
 
 .btn {
-    background-color: #8A5A5A;
+    background-color: #0B6E4F;
     border: none;
     color: #F6ECE3;
     padding: 12px;
@@ -90,21 +97,21 @@ h5 {
   }
   
   .btn:hover {
-    background-color: #f12db7;
+    background-color: #4A883B;
   }
 
 .card-title {
     font-family:'Cardo',serif;
-    color:#404E5C;
+    color:#073B3A;
 }
 
 .card-text {
     font-family:'Nunito',sans-serif;
-    color:#8A5A5A;
+    color:#0B6E4F;
 }
 
 .bi {
-    color:#B85D5D;
+    color:#4A883B;
     font-size: 3em;
     padding:10px;
 }
